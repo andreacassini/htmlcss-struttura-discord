@@ -11,33 +11,37 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(207, 245, 245);
+    background-color: rgba(173,217,231,255);
 }
 
-.row-header{
+.header-row{
     width: 60%;
     height: 60%;
-    background-color: orange;
+    background-color: rgba(219,164,32,255);
     display: flex;
     justify-content: space-between;
 }
 
-.logo, .link, .login{
+.header-logo, .header-link, .header-login{
     border-style: dashed;
     border-width: 2px;
     padding: 10px;
-    width: 20%;
 }
 
-.link{
+.header-link{
     flex-grow: 2;
     text-align: center;
 }
 
-.login{
+.header-login{
     text-align: end;
+    padding-left: 20%;
 }
 
+.header-logo{
+    padding-right: 20%;
+   
+}
 /* end header */
 
 /* start first section */
@@ -48,13 +52,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(3, 3, 145);
+    background-color: rgba(0,1,138,255);
 }
 
 .first-col{
     width: 45%;
     height: 80%;
-    background-color: rgb(250, 139, 222);
+    background-color: rgba(239,130,239,255);
     border-style: dashed;
     border-width: 2px;
 }
@@ -73,14 +77,14 @@ header{
 .second-col-65{
     width: calc(65% / 2);
     height: 80%;
-    background-color: rgb(78, 147, 226);
+    background-color: rgba(31,145,255,255);
     border-style: dashed;
     border-width: 2px;
 }
 .second-col-45{
     width: calc(45% / 2);
     height: 80%;
-    background-color: rgb(241, 183, 183);
+    background-color: rgba(254,193,203,255);
     border-style: dashed;
     border-width: 2px;
 }
@@ -93,20 +97,20 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(216, 216, 216);
+    background-color: rgba(210,211,210,255);
 }
 
 .third-col-45{
     width: calc(45% / 2);
     height: 80%;
-    background-color: rgb(78, 147, 226);
+    background-color: rgba(254,193,203,255);
     border-style: dashed;
     border-width: 2px;
 }
 .third-col-65{
     width: calc(65% / 2);
     height: 80%;
-    background-color: rgb(241, 183, 183);
+    background-color: rgba(31,145,255,255);
     border-style: dashed;
     border-width: 2px;
 }
@@ -125,14 +129,14 @@ header{
 .fourth-col-65{
     width: calc(65% / 2);
     height: 80%;
-    background-color: rgb(78, 147, 226);
+    background-color: rgba(31,145,255,255);
     border-style: dashed;
     border-width: 2px;
 }
 .fourth-col-45{
     width: calc(45% / 2);
     height: 80%;
-    background-color: rgb(241, 183, 183);
+    background-color: rgba(254,193,203,255);
     border-style: dashed;
     border-width: 2px;
 }
@@ -145,13 +149,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(216, 216, 216);
+    background-color: rgba(210,211,210,255);
 }
 
 .fifth-col{
     width: 55%;
     height: 80%;
-    background-color: green;
+    background-color: rgba(34,139,34,255);
     border-style: dashed;
     border-width: 2px;
 }
@@ -164,21 +168,55 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(49, 47, 47);
+    background-color: rgba(34,39,43,255);
+    padding-bottom: 20px;
 }
 .sixth-col-15{
     width: 15%;
-    height: 80%;
-    background-color: pink;
+    height: 95%;
+    background-color: rgba(241,129,128,255);
     border-style: dashed;
     border-width: 2px;
 }
 .sixth-col-40{
     width: calc(40% / 4);
-    height: 80%;
-    background-color: turquoise;
+    height: 95%;
+    background-color: rgba(32,178,170,255);
     border-style: dashed;
-    border-color: white;
+    border-inline-color: white;
     border-width: 2px;
 }
 /* end sixth section */
+
+/* start footer */
+footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color:rgba(34,39,43,255);
+}
+
+.footer-row{
+    width: 55%;
+    height: 75%;
+    background-color: rgba(126,255,213,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo{
+    border-style: dashed;
+    border-width: 2px;
+    padding: 5px;
+    background-color: rgba(255,183,192,255);
+}
+.footer-button{
+    border-style: dashed;
+    border-width: 2px;
+    padding: 5px;
+    background-color: rgba(255,183,192,255);
+}
+/* end footer */
